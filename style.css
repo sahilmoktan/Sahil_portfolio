@@ -34,6 +34,7 @@ a,
 
 /* desktop nav  */
 
+
 nav,
 .nav-links {
   display: flex;
@@ -318,4 +319,33 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience {
+  position: relative;
+  
+}
+
+.logBox{
+    width: 6rem;
+    height: 8rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logicon{
+    width: 90%;
+}
+
+
+.experience-details-container{
+    display: flex;
 }
