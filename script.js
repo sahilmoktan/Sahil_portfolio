@@ -5,3 +5,7 @@ function toggleMenu() {
     icon.classList.toggle("open");
   }
   
+
+  function openInNewTab(url) {
+    window.open(url, '_blank');
+  }

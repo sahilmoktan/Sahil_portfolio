@@ -174,9 +174,17 @@ section {
   height: 60vh;
 }
 
+
+.section_profilepic-container {
+  display: flex;
+  height: 30rem;
+  width: 400px;
+  margin: auto 0;
+}
+
 .section_pic-container {
   display: flex;
-  height: 498px;
+  height: 400px;
   width: 400px;
   margin: auto 0;
 }
@@ -270,7 +278,6 @@ section {
 
 #about {
   position: relative;
-  height: 100vh;
 }
 
 .about-containers {
@@ -296,7 +303,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 4.5rem;
+  bottom: 2.5rem;
 }
 
 .details-container {
@@ -314,8 +321,8 @@ section {
   height: 80%;
 }
 
-.section_pic-container {
-  height: 498px;
+.section__pic-container {
+  height: 400px;
   width: 400px;
   margin: auto 0;
 }
