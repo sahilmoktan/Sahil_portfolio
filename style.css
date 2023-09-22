@@ -34,7 +34,6 @@ a,
 
 /* desktop nav  */
 
-
 nav,
 .nav-links {
   display: flex;
@@ -297,7 +296,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  bottom: 4.5rem;
 }
 
 .details-container {
@@ -325,55 +324,105 @@ section {
 
 #experience {
   position: relative;
-  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.logBox{
-    width: 6rem;
-    height: 8rem;
-    padding: 1.5rem;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+.expbbody {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
-.logicon{
-    width: 90%;
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
-
-.experience-details-container{
-    display: flex;
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+  flex-wrap: wrap; 
+  max-width: 100%;
+  padding: 20px; 
 }
 
+.details-container-exp {
+  /* margin: auto;
+  margin-top: 1.5rem; */
+  padding: 2.5rem;
+  /* width: 60vw; */
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.about-expcontainers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+  display: flex;
+}
+
+.logoIcon{
+  width: 3.5rem;
+  /* background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+
+.article-container {
+  display: flex;
+  /* text-align: initial; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+    width: 10rem;
+    margin: auto;
+}
+
+article .icon {
+  cursor: default;
+}
 
 /* PROJECTS SECTION */
 
 #projects {
-    position: relative;
-  }
-  
-  .color-container {
-    border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
-  }
-  
-  .project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-  }
-  
-  .project-title {
-    margin: 1rem;
-    color: black;
-  }
-  
-  .project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
-  }
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
