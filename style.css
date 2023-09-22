@@ -174,7 +174,6 @@ section {
   height: 60vh;
 }
 
-
 .section_profilepic-container {
   display: flex;
   height: 30rem;
@@ -358,9 +357,9 @@ section {
   justify-content: center;
   /* flex-direction: column; */
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   max-width: 100%;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .details-container-exp {
@@ -382,7 +381,7 @@ section {
   display: flex;
 }
 
-.logoIcon{
+.logoIcon {
   width: 3.5rem;
   /* background-repeat: no-repeat;
   background-position: center center;
@@ -399,8 +398,8 @@ section {
 }
 
 article {
-    width: 10rem;
-    margin: auto;
+  width: 10rem;
+  margin: auto;
 }
 
 article .icon {
@@ -432,4 +431,55 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+/* CONTACT */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
