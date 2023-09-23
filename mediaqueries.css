@@ -36,6 +36,8 @@
   .section_pic-container {
     width: 200px;
     height: 200px;
+    margin: auto;
+    padding: 2rem;
   }
   .section_profilepic-container {
     width: 220px;
@@ -67,4 +69,24 @@
     background-repeat: no-repeat;
     background-position: right;
   }
+
+  .section-container {
+    display: block;
+  }
+
+  .about-expcontainers {
+    display: block;
+    margin: auto;
+  }
+
+  .details-container {
+    margin-bottom: 1.5rem;
+  }
+  .icon {
+   height: 2.3rem;
+}
+.contact-info-upper-container{
+   flex-wrap: wrap;
+}
+
 }
