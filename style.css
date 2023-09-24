@@ -125,6 +125,7 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  background-color: transparent;
 }
 
 .hamburger-icon.open span:first-child {
