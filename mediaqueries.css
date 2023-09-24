@@ -41,9 +41,10 @@
   }
   .section_profilepic-container {
     width: 220px;
-    height: 220px;
+    height: 300px;
     justify-content: center;
     margin: auto;
+    margin-bottom: 3rem;
   }
   .about-containers {
     margin-top: 0px;
@@ -83,10 +84,17 @@
     margin-bottom: 1.5rem;
   }
   .icon {
-   height: 2.3rem;
-}
-.contact-info-upper-container{
-   flex-wrap: wrap;
+    height: 2.3rem;
+  }
+  .contact-info-upper-container {
+    flex-wrap: wrap;
+    font-size: small;
+  }
+
+  .email-icon {
+    height: 1.2rem;
+  }
+
+  
 }
 
-}
