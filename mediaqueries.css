@@ -8,6 +8,15 @@
   }
 }
 
+@media screen and (max-width: 378px) {
+  .section_profilepic-container {
+    width: 217px;
+    height: 277px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+}
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -54,6 +63,10 @@
   }
   .section_text_p2 {
     font-size: 1rem;
+  }
+
+  .menu-links {
+  background-color: transparent;
   }
 
   .btn {
