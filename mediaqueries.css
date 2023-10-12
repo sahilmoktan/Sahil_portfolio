@@ -10,14 +10,25 @@
 
 @media screen and (max-width: 378px) {
   .section_profilepic-container {
-    width: 217px;
+    /* width: 217px;
     height: 277px;
     justify-content: center;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; */
+    width: 220px;
+    height: 300px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3rem;
+    position: relative;
 }
 }
 @media screen and (max-width: 1200px) {
+
+  .section_profilepic-container {
+    animation: animateUser 4s linear infinite;
+  }
+  
   #desktop-nav {
     display: none;
   }
@@ -54,6 +65,24 @@
     justify-content: center;
     margin: auto;
     margin-bottom: 3rem;
+    position: relative;
+    
+  }
+
+  .section_profilepic-container img {
+    position: absolute; /* Use absolute positioning for animation */
+    width: 100%; /* Ensure the image covers the container */
+    top: 0;
+    right: 0;
+    animation: animateUser 4s linear infinite;}
+
+
+  @keyframes animateUser {
+    50%{
+      right: 10px;
+      top: -20px;
+    }
+    
   }
   .about-containers {
     margin-top: 0px;

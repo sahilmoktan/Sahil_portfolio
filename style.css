@@ -174,13 +174,32 @@ section {
   gap: 10rem;
   height: 60vh;
 }
-
 .section_profilepic-container {
   display: flex;
   height: 27rem;
   width: 400px;
   margin: auto 0;
+  top: 0;
+  right: 0;
+  animation: animateUser 4s linear infinite; /* Apply animation to both states */
 }
+
+
+@keyframes animateUser {
+  0% {
+    right: 0;
+    top: 0;
+  }
+  50% {
+    right: 10px;
+    top: -20px;
+  }
+  100% {
+    right: 0;
+    top: 0;
+  }
+}
+
 
 .section_pic-container {
   display: flex;
