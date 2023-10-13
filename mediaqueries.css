@@ -28,7 +28,7 @@
   .section_profilepic-container {
     animation: animateUser 4s linear infinite;
   }
-  
+
   #desktop-nav {
     display: none;
   }
@@ -79,8 +79,8 @@
 
   @keyframes animateUser {
     50%{
-      right: 10px;
-      top: -20px;
+      right: 8px;
+      top: -5px;
     }
     
   }

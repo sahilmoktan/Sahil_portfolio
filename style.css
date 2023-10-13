@@ -175,13 +175,27 @@ section {
   height: 60vh;
 }
 .section_profilepic-container {
-  display: flex;
+  /* display: flex; */
+  position: relative;
   height: 27rem;
   width: 400px;
   margin: auto 0;
+  /* top: 0;
+  right: 0; */
+  animation: animateUser 4s linear infinite; /* Apply animation to both states */
+}
+
+.section_profilepic-container img {
+
+  display: flex;
+  position: absolute;
+  /* height: 27rem; */
+  width: 100%;
+  /* margin: auto 0; */
   top: 0;
   right: 0;
   animation: animateUser 4s linear infinite; /* Apply animation to both states */
+
 }
 
 
@@ -191,8 +205,8 @@ section {
     top: 0;
   }
   50% {
-    right: 10px;
-    top: -20px;
+    right: 8px;
+    top: -5px;
   }
   100% {
     right: 0;
