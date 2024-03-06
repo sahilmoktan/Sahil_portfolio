@@ -42,7 +42,7 @@ function scrollToTop() {
 function downloadCV() {
   console.log('donlod')
   const link = document.createElement('a');
-  link.href = './assets/Sahil_Moktan_CV_nextjs.pdf'; // Provide the path to your CV file.
-  link.download = 'Sahil_Moktan_CV_nextjs.pdf'; // Set the desired name for the downloaded file.
+  link.href = './assets/Sahil_Moktan_CV_MERN_stack.pdf'; // Provide the path to your CV file.
+  link.download = 'Sahil_Moktan_CV_MERN_stack.pdf'; // Set the desired name for the downloaded file.
   link.click();
 }
